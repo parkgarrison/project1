@@ -1,0 +1,21 @@
+.slideshow{
+    max-width: 1000px;
+    position: absolute;
+    margin: auto;
+
+}
+
+.background{
+    background-color: darkgray;
+    overflow: auto;
+}
+
+.back-txt{
+    font-family: Georgia, serif;
+    text-align: center;
+    position: absolute;
+    top: 13%;
+    left: 732px;
+    transform: translate(-50%, -50%);
+    color: black;
+  }

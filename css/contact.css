@@ -1,9 +1,6 @@
 .background{
-    height: 100vh;  
+    height: 100vh;
     background-image: linear-gradient(rgba(1,1,1,1), rgba(1,1,1,.7)), url("https://cdn2.benzinga.com/files/imagecache/1024x768xUP/images/story/2012/shutterstock_101998966.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 h1{
@@ -13,8 +10,9 @@ h1{
 
 form{
     position: absolute;
+    align-content: center;
     top: 60%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%, -50%);
     color: white;
 }

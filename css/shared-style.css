@@ -3,27 +3,35 @@ body, html {
     margin: 0;
     padding: 0;
 }
+
+.background{
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
 .banner {
     display: flex;
     flex-grow: 1;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
     background-color: darkred;
     height: 80px;
     top: 0;
-    gap: 125px;
     position: sticky;
     z-index: 1;
 }
 
 .banner-img{
     align-self: center;
+    text-align: center;
+    width: 10%;
 }
 
 .banner-text{
     align-self: center;
+    text-align: center;
     color: white;
     font-size: small;
+    width: 10%;
 }
 
 a, a:visited{ 
