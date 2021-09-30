@@ -12,4 +12,11 @@ body{
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-align: center;
     color: black;
-  }
+}
+
+@media screen and (max-width: 450px){
+
+ .back-txt{
+    font-size: 8px;
+ }
+}
